@@ -102,7 +102,7 @@ const std::string& Token_BreakLevel_Name(
                      Token_BreakLevel_strings[idx].get();
 }
 bool Token_BreakLevel_Parse(
-    const std::string& name, Token_BreakLevel* value) {
+    ::PROTOBUF_NAMESPACE_ID::ConstStringParam name, Token_BreakLevel* value) {
   int int_value;
   bool success = ::PROTOBUF_NAMESPACE_ID::internal::LookUpEnumValue(
       Token_BreakLevel_entries, 4, name, &int_value);
