@@ -1,3 +1,3 @@
-module github.com/vpol/gocld3
+module github.com/markusmobius/gocld3-1
 
 go 1.13
